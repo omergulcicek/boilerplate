@@ -1,11 +1,12 @@
 {
-  "name": "start-of-project",
+  "name": "boilerplate",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
     "autoprefixer": "^7.2.5",
+    "browser-sync": "^2.23.6",
     "css-declaration-sorter": "^3.0.1",
     "gulp": "^3.9.1",
     "gulp-clean-css": "^3.9.2",
