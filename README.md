@@ -1,3 +1,23 @@
+<h1>Frontend Boilerplate</h1>
+
+Frontend Developerlar için proje başlangıç taslağıdır.
+
+`NodeJS` kurulumu yaptıktan sonra `Node.js command prompt`u açarak `npm install` komutu ile `package.json` dosyası içerisindeki paketlerin kurulmasını sağlayabilirsiniz.
+
+<h2>İçerdiği Paketler</h2>
+
+* <a href="https://github.com/omergulcicek/frontend-boilerplate#autoprefixer">Autoprefixer</a>
+* <a href="https://github.com/omergulcicek/frontend-boilerplate#browsersync">Browser Sync</a>
+* <a href="https://github.com/omergulcicek/frontend-boilerplate#css-declaration-sorter">Css Declaration Sorter</a>
+* <a href="">Gulp</a>
+* <a href="https://github.com/omergulcicek/frontend-boilerplate#gulp-clean-css">Gulp Clean Css</a>
+* <a href="https://github.com/omergulcicek/frontend-boilerplate#gulp-concat">Gulp Concat</a>
+* <a href="">Gulp Post CSS</a>
+* <a href="https://github.com/omergulcicek/frontend-boilerplate#gulp-sass">Gulp SASS</a>
+* <a href="https://github.com/omergulcicek/frontend-boilerplate#gulp-uglify">Gulp Uglify</a>
+
+<hr>
+
 <h3>Autoprefixer</h3>
 
 CSS kodlarının diğer tarayıcılar ile sorunsuz çalışabilmesi için gerekli ön ekleri tamamlar.
