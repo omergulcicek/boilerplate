@@ -25,15 +25,15 @@ CSS kodlarının diğer tarayıcılar ile sorunsuz çalışabilmesi için gerekl
 ```css
 /* Kaydetmeden Önce */
 div {
-    display: flex;
+  display: flex;
 }
 
 /* Kaydettikten Sonra */
 div {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 ```
 
@@ -52,18 +52,18 @@ CSS kodlarında kaydetme işlemi gerçekleştirdiğiniz anda, tüm kodları alfa
 ```css
 /* Kaydetmeden Önce */
 body {
-    display: block;
-    animation: none;
-    color: #C55;
-    border: 0;
+  display: block;
+  animation: none;
+  color: #C55;
+  border: 0;
 }
 
 /* Kaydettikten Sonra */
 body {
-    animation: none;
-    border: 0;
-    color: #C55;
-    display: block;
+  animation: none;
+  border: 0;
+  color: #C55;
+  display: block;
 }
 ```
 
@@ -76,9 +76,9 @@ CSS kodlarında kaydetme işlemi gerçekleştirdiğiniz anda kodları minify ede
 ```css
 /* Kaydetmeden Önce */
 a {
-    color: #000;
-    display: inline-block;
-    text-decoration: none;
+  color: #000;
+  display: inline-block;
+  text-decoration: none;
 }
 
 /* Kaydettikten Sonra */
@@ -97,27 +97,27 @@ CSS ve JavaScript dosyalarında kaydetme işlemi gerçekleştirdiğiniz anda, CS
 
 SASS ile CSS'i bir programlama diline benzer yapıyla geliştirebiliriz; değişkenler, döngüler, if-else, fonksiyonlar yada iç içe geçmiş şekilde CSS yazabiliriz.
 
-```sass
+```scss
 /* Kaydetmeden Önce */
 $backgroundColor: #f5f5f5;
 $width: 250px;
 .square {
-    width: $width;
-    height: 250px;
+  height: 250px;
+  width: $width;
 
-    .color {
-        background-color: $backgroundColor;
-    }
+  .color {
+    background-color: $backgroundColor;
+  }
 }
 
 /* Kaydettikten Sonra */
 .square {
-    width: 250px;
-    height: 250px;
+  height: 250px;
+  width: 250px;
 }
 
 .square .color {
-    background-color: #f5f5f5;
+  background-color: #f5f5f5;
 }
 ```
 
@@ -130,7 +130,7 @@ JavaScript kodunuzda kaydetme işlemi yaptığınız anda tüm kodu minify eder 
 ```js
 //Kaydetmeden Önce
 Array.prototype.forEach.call(tabs, function(el, i) {
-    el.classList.remove("aktif");
+  el.classList.remove("aktif");
 });
 
 //Kaydettikten Sonra
